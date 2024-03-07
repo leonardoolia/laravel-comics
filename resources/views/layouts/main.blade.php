@@ -15,7 +15,7 @@
     {{-- HEADER --}}
     <header>
         <div class="container">
-            <img  src="{{ asset('images/dc-logo.png') }}"   alt="Logo dc">
+            <img  src="{{ asset('img/dc-logo.png') }}"   alt="Logo dc">
 
             <ul>
                 <li><a href="{{ route('characters') }}">Characters</a></li>
