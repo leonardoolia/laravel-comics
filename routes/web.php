@@ -18,9 +18,11 @@ Route::get('/', function () {
 
 
 Route::get('/characters', function () {
-    return view('characters');
+    $title = 'Characters';
+    return view('characters', compact('title'));
 })->name('characters');
 
 Route::get('/comics', function () {
-    return view('comics');
+    $title = 'Comics';
+    return view('comics', compact('title'));
 })->name('comics');
