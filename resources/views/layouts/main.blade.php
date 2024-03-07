@@ -104,7 +104,7 @@
                 <div class="footer-social">
                     <span>FOLLOW US</span>
                     <ul>
-                        <li><a href="#"><img src="@/assets/img/footer-facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="{{asset('img/footer-facebook.png')}}" alt=""></a></li>
                         <li><a href="#"><img src="@/assets/img/footer-twitter.png" alt=""></a></li>
                         <li><a href="#"><img src="@/assets/img/footer-youtube.png" alt=""></a></li>
                         <li><a href="#"><img src="@/assets/img/footer-pinterest.png" alt=""></a></li>
