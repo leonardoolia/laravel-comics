@@ -12,7 +12,15 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', function () {
+    return view('layouts.main');
+})->name('layouts');
+
+
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
+
+Route::get('/comics', function () {
     return view('comics');
-});
+})->name('comics');
